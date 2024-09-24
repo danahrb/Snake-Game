@@ -17,11 +17,11 @@ A simple and interactive Snake Game built with React. Navigate the snake to eat 
 
 ## Screenshots
 
-![Game Start Screen](images/pic1.png)  *Game Start Screen*
+![Game Start Screen](public/images/pic1.png)  *Game Start Screen*
 
-![Game In Progress](images/pic3.png)  *Game In Progress*
+![Game In Progress](public/images/pic3.png)  *Game In Progress*
 
-![Game Over Screen](images/pic2.png)  *Game Over Screen*
+![Game Over Screen](public/images/pic2.png)  *Game Over Screen*
 
 
 # React + Vite
