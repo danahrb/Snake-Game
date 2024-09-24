@@ -1,0 +1,86 @@
+/* src/SnakeGame.css */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 40px;
+    background-color: #1c1c1c; 
+    font-family: 'Press Start 2P', cursive; 
+    color: #ffffff; 
+    overflow: hidden; 
+}
+
+.game-container {
+    text-align: center;
+    background-color: #222; 
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); 
+    min-width: 800px; 
+    box-sizing: border-box; 
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8); 
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.game-area {
+    position: relative;
+    margin: 20px auto;
+    width: 450px; 
+    height: 450px; 
+    border: 2px solid #262b30; 
+    background-color: #000; 
+}
+
+.snake-segment {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #00ff00; 
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 10px #30fa30ee
+}
+
+.food {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ec1616; 
+    border: 1px solid #87a4ad;
+    box-shadow:  0 0 40px #ec161690;
+}
+
+.game-over {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ff0000; 
+}
+
+button {
+    padding: 10px 20px;
+    color: #2235c0; 
+    background-color: #a1b3c0; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; 
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #b4cbda; 
+}
